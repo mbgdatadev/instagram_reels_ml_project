@@ -75,24 +75,6 @@ predictions = pd.DataFrame({
 print(predictions.head())
 ```
 
-### 6. Proje Kurulumu:
 
-1. **Repo'yu klonlayın**:
-```bash
-git clone https://github.com/kullanici_adiniz/reponuz.git
-```
-
-2. **Gerekli kütüphaneleri yükleyin**:
-```bash
-pip install -r requirements.txt
-```
-
-3. **Veri dosyasını (`data.csv`) ana dizine ekleyin.**
-
-4. **Projeyi çalıştırın**:
-```bash
-python main.py
-```
-
-### 7. Sonuçlar ve Yorumlar:
+### 6. Sonuçlar ve Yorumlar:
 Bu proje, video uzunluğu, başlık ve açıklama uzunluğu gibi değişkenlerle izlenme sayısının tahmin edilebileceğini gösteriyor. Modelin başarımı `Mean Squared Error` metriği ile değerlendirildi. Proje ilerledikçe daha fazla özellik ve daha karmaşık modeller eklenebilir.
